@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid green;
+    /* vh --> viewport height */
+    /* vw --> viewport width */
+}
+
+/* 777277 */
+
+.main-section{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div > p{
+    background-color: paleturquoise;
+}
+
